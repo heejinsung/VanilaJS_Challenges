@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  font-family: 'Kanit',
+  sans-serif;
+}
+.hidden {
+  display: none;
+}
+header {
+  position: relative;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  right: 20px;
+  top: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+}
+#clock,
+#login-form,
+#greeting,
+#todo-form,
+#todo-list{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 15%;
+}
+#clock {
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+.login_input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #fefefe;
+  background-color: transparent;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.login_input:focus {
+  outline: none;
+  border-color: #ddd;
+}
+.login_input:focus::placeholder {
+  opacity: 0;
+}
+.login_input::placeholder {
+  font-size: 20px;
+  color: #fefefe;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+.login_btn{
+  height: 30px;
+  width: 60px;
+  margin-left: 10px;
+  border: 2px solid #fefefe;
+  background-color: transparent;
+  color: #fefefe;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.todo_input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #fefefe;
+  background-color: transparent;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.todo_input:focus {
+  outline: none;
+  border-color: #ddd;
+}
+
+.todo_input:focus::placeholder {
+  opacity: 0;
+}
+
+.todo_input::placeholder {
+  font-size: 20px;
+  color: #fefefe;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+#todo-list{
+  width: 40%;
+  height: 400px;
+  display: block;
+  list-style: none;
+  border: 1px solid #fefefe;
+  margin: auto;
+  margin-top: 20px;
+}
+li{
+  padding: 10px 15px;
+  width: 100%;
+  text-align: center;
+}
+li span{
+  font-size: 1.5rem;
+}
+li span:nth-child(2) {
+  overflow-wrap: break-word;
+}
+li button{
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .8;
+}
+
+
