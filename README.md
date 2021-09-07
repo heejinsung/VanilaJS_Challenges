@@ -1,1 +1,1 @@
-# VanilaJS_Challenges
+# VanillaJS_Challenges
